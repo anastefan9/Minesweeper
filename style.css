@@ -1,0 +1,18 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	width: 153px;
+	height: 153px;
+	border: 1px;
+	transform: translate(347%, 0%);
+}
+
+.container > div {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(179, 255, 102);
+	text-align: center;
+	border: 1px solid green;
+	font-size: 20px;
+}
+
